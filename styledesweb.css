@@ -1,0 +1,119 @@
+.dasbord {
+  background-color: rgb(64, 134, 137);
+  overflow: hidden;
+}
+
+.dasbord a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.dasbord a:hover {
+  background-color: rgb(194, 190, 190);
+  color: white;
+}
+
+.content {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px;
+}
+
+.konten,
+.daerah {
+  flex-basis: 48%;
+}
+
+.kotak,
+.baru {
+  border: 2px solid black;
+  padding: 13px;
+  margin-bottom: 12px;
+}
+
+.daerah.mana {
+  border: 2px solid black;
+  padding: 13px;
+  margin-bottom: 12px;
+}
+
+.baru {
+  display: block;
+  color: black;
+  background-color: rgb(255, 255, 255, 0.2);
+  border: visible;
+  padding: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.baru a {
+  color: white;
+  text-decoration: none;
+}
+
+.baru h2 :visited {
+  color: black;
+}
+
+.baru h2 :hover {
+  color: rgb(247, 231, 142);
+}
+.baru:hover {
+  background-color: rgb(223, 220, 220);
+}
+
+.mana {
+  display: block;
+  color: black;
+  background-color: rgb(255, 255, 255, 0.2);
+  border: visible;
+  padding: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+.mana a {
+  color: white;
+  text-decoration: none;
+}
+
+.mana h2 :visited {
+  color: black;
+}
+
+.mana h2 :hover {
+  color: rgb(247, 231, 142);
+}
+
+.mana:hover {
+  background-color: rgb(223, 220, 220);
+}
+
+.kotak .baru h2 {
+  margin-top: 5px;
+}
+
+.daerah .mana h2 {
+  margin-top: 14px;
+}
+
+body {
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  background-image: url(background\ web.jpg);
+}
+
+img {
+  width: 50%;
+}
+footer {
+  text-align: center;
+  padding: 10px;
+  background-color: rgb(64, 134, 137);
+  color: white;
+}
