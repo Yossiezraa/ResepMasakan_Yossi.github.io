@@ -4,14 +4,38 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="styledesweb.css" />
+    <link rel="stylesheet" href="bootstrap\css\bootstrap.min.css" />
     <title>Website Desain Web B</title>
   </head>
   <body>
-    <div class="dasbord">
-      <a href="home">Home</a>
-      <a href="tips.html">Tips dan Trik Memasak</a>
-      <a href="tentangkami.html">Tentang Kami</a>
-    </div>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container-fluid">
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="tips.html">Tips&Trik Memasak</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="tentangkami.html">Tentang Kami</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
 
     <div class="content">
       <div class="konten">
@@ -73,5 +97,7 @@
     <footer>
       <h6>Copyright @ 2023 Website Resep Masakan Yossi Ezra</h6>
     </footer>
+
+    <script src="bootstrap\js\bootstrap.bundle.min.js"></script>
   </body>
 </html>
